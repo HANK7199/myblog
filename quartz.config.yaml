@@ -6,7 +6,11 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: en-US
-  baseUrl: sosiristseng.github.io/template-quartz
+  baseUrl: hank7199.github.io/myblog    # ← 顺便把这行也改成你自己的地址
+  head:                                  # ← 新添加的
+    - - meta
+      - name: google-site-verification
+        content: BLsQoNXapT5zbRgptH9TVxDiD-j_ryVWqg-kPi3r7Mc
   ignorePatterns:
     - private
     - templates
