@@ -1,0 +1,201 @@
+/* ============================================================
+   HANK 的工具箱 · 科幻风格自定义样式
+   基于 Quartz 5，覆盖默认主题
+   ============================================================ */
+
+/* ----- 全局深色背景 ----- */
+body {
+  background: #0a0a0f !important;
+  color: #e8e8f0 !important;
+  font-family: 'Inter', -apple-system, sans-serif !important;
+}
+
+/* ----- 页面容器背景微调 ----- */
+.page {
+  background: transparent !important;
+}
+
+/* ----- 顶部导航栏 ----- */
+header {
+  border-bottom: 1px solid rgba(168, 85, 247, 0.08) !important;
+}
+
+header nav a {
+  color: #8888aa !important;
+  transition: color 0.3s !important;
+}
+
+header nav a:hover,
+header nav a:focus {
+  color: #00d4ff !important;
+}
+
+header nav a.active {
+  color: #00d4ff !important;
+}
+
+/* ----- 文章标题 ----- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e8e8f0 !important;
+}
+
+h1 a,
+h2 a,
+h3 a {
+  color: #e8e8f0 !important;
+  text-decoration: none !important;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+  color: #00d4ff !important;
+}
+
+/* ----- 文章卡片 (Quartz 的 .card) ----- */
+.card {
+  background: rgba(18, 18, 26, 0.6) !important;
+  border: 1px solid rgba(0, 212, 255, 0.06) !important;
+  border-radius: 12px !important;
+  transition: all 0.35s ease !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+.card:hover {
+  border-color: rgba(0, 212, 255, 0.2) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 40px rgba(0, 212, 255, 0.04) !important;
+}
+
+.card h2 a,
+.card h3 a {
+  color: #e8e8f0 !important;
+}
+
+.card h2 a:hover,
+.card h3 a:hover {
+  color: #00d4ff !important;
+}
+
+/* ----- 文章元信息（日期、标签） ----- */
+.meta,
+.post-meta,
+article .meta {
+  color: #666688 !important;
+  font-size: 0.85rem !important;
+}
+
+/* ----- 标签样式（彩色） ----- */
+.tag,
+.tags a {
+  background: rgba(0, 212, 255, 0.06) !important;
+  border: 1px solid rgba(0, 212, 255, 0.08) !important;
+  color: #b0b0cc !important;
+  border-radius: 20px !important;
+  padding: 2px 14px !important;
+  font-size: 0.75rem !important;
+  transition: all 0.3s !important;
+}
+
+.tag:hover,
+.tags a:hover {
+  border-color: rgba(0, 212, 255, 0.3) !important;
+  color: #00d4ff !important;
+  background: rgba(0, 212, 255, 0.1) !important;
+}
+
+/* 不同分类标签颜色 */
+.tags a[href*="工具"] {
+  color: #00d4ff !important;
+  border-color: rgba(0, 212, 255, 0.15) !important;
+}
+.tags a[href*="阅读"] {
+  color: #f97316 !important;
+  border-color: rgba(249, 115, 22, 0.15) !important;
+}
+.tags a[href*="VLOG"] {
+  color: #ec4899 !important;
+  border-color: rgba(236, 72, 153, 0.15) !important;
+}
+.tags a[href*="AI"] {
+  color: #22d3ee !important;
+  border-color: rgba(34, 211, 238, 0.15) !important;
+}
+.tags a[href*="想法"] {
+  color: #a855f7 !important;
+  border-color: rgba(168, 85, 247, 0.15) !important;
+}
+
+/* ----- 链接颜色 ----- */
+a {
+  color: #00d4ff !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #a855f7 !important;
+}
+
+/* ----- 首页专属样式（可选） ----- */
+/* 如果你在首页用了表格来分类，可以美化表格 */
+table {
+  background: rgba(18, 18, 26, 0.4) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(0, 212, 255, 0.06) !important;
+  overflow: hidden !important;
+}
+
+table td,
+table th {
+  background: transparent !important;
+  border-color: rgba(168, 85, 247, 0.05) !important;
+  padding: 12px 16px !important;
+  color: #e8e8f0 !important;
+}
+
+/* ----- 引用块样式（科幻感） ----- */
+blockquote {
+  border-left: 3px solid #00d4ff !important;
+  background: rgba(0, 212, 255, 0.04) !important;
+  color: #c0c0d8 !important;
+  padding: 12px 20px !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+
+/* ----- 代码块（暗色科幻） ----- */
+pre,
+code {
+  background: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 6px !important;
+  color: #22d3ee !important;
+}
+
+pre {
+  border: 1px solid rgba(0, 212, 255, 0.06) !important;
+}
+
+/* ----- 分割线（发光细线） ----- */
+hr {
+  border: none !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, rgba(168, 85, 247, 0.15), transparent) !important;
+  margin: 32px 0 !important;
+}
+
+/* ----- 页脚（如果 Quartz 有 footer） ----- */
+footer {
+  border-top: 1px solid rgba(168, 85, 247, 0.05) !important;
+  color: #444466 !important;
+}
+
+/* ----- 响应式微调 ----- */
+@media (max-width: 768px) {
+  .card {
+    padding: 16px !important;
+  }
+}

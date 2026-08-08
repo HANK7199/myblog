@@ -1,7 +1,38 @@
 ---
-title: Welcome to Quartz 5
+title: 首页
 ---
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers publish personal notes, wikis, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+<!-- 这部分内容会被 Quartz 渲染，但为了更好的自定义效果，我们同时配合自定义 CSS -->
 
-See the [official documentation](https://quartz.jzhao.xyz/) for more details.
+👋 你好，我是 **HANK**
+
+不懂编程但爱折腾，在这里记录我的数字生活。  
+**工具测评 · 读书笔记 · VLOG · 日常思考**
+
+---
+
+## ◆ 探索分类
+
+| ⚡ 工具 | 🤖 AI 工具 | 📖 阅读 |
+|:---:|:---:|:---:|
+| 12 篇文章 | 5 篇文章 | 8 篇文章 |
+| [探索 →]() | [探索 →]() | [探索 →]() |
+
+| 🎬 VLOG | ✍️ 想法 | 🎯 其他 |
+|:---:|:---:|:---:|
+| 4 篇文章 | 6 篇文章 | 3 篇文章 |
+| [探索 →]() | [探索 →]() | [探索 →]() |
+
+---
+
+## ◆ 最新动态
+
+- **🎬 VLOG** ｜ 周末去了上海开源硬件展  `2026.08.08`
+- **📖 阅读** ｜ 《黑客与画家》—— 程序员眼中的世界  `2026.08.07`
+- **🔧 工具** ｜ 3 款开源截图工具对比，谁最轻量？  `2026.08.06`
+- **✍️ 想法** ｜ 做自媒体一个月，我学到了什么  `2026.08.05`
+- **🤖 AI**  ｜ 5 个免费 AI 工具，帮你每天省下 2 小时  `2026.08.04`
+
+---
+
+> ◆ 2026 HANK的工具箱  ◆  开源 · 分享 · 探索
